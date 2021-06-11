@@ -9,8 +9,6 @@ function App() {
         <p>
           Hello there.
         </p>
-          Learn React
-        </a>
       </header>
     </div>
   );
