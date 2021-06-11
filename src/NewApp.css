@@ -1,0 +1,134 @@
+
+*{
+    margin: 0px;
+    padding-inline-start: 0px;
+}
+
+#nav-bar {
+    background-color: #fff;
+    height: 80px;
+}
+
+#nav-bar a {
+    font-family: arial;
+    float: left;
+    padding: 20px 14px;
+    padding-right: 0px;
+    font-size: 32px;
+    color: #000;
+    text-decoration: none;
+}
+
+#regular-group ul {
+    float: right;
+}
+
+#regular-group ul li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#regular-group ul li a {
+    display: block;
+    padding: 28px 10px;
+    font-size: 20px;
+    font-family: arial;
+    color: #000;
+    text-decoration: none;
+}
+
+#drop-down-group {
+    float: right;
+}
+
+#drop-down-indicator {
+    padding: 24px;
+    padding-left: 10px;
+    padding-right: 50px;
+    list-style: none;
+    position: relative;
+    text-decoration: none;
+}
+
+#drop-down-indicator a {
+    display: block;
+    font-size: 20px;
+    font-family: arial;
+    color: #000;
+    text-decoration: none;
+}
+
+#drop-down-group ul ul {
+    padding: 0px;
+    list-style: none;
+    position: absolute;
+}
+
+#drop-down-group ul ul {
+    display: none
+}
+
+#drop-down-group ul:hover ul {
+    display: block
+}
+
+#drop-down-group ul ul li {
+    padding: 10px 10px;
+    background-color: #fff;
+   
+}
+
+#drop-down-group ul ul li a {
+    padding: 8px;
+    display: inline-block;
+    font-size: 20px;
+    font-family: arial;
+    color: #000;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+#drop-down-group ul ul li a:hover {
+ background-color: lightgray;
+}
+
+#main-body {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#home-text {
+    fill: white;
+    font: bold 300% sans-serif;
+    text-anchor: "middle"
+}
+
+#black-poly {
+    height: 100%
+}
+
+.main {
+    height: 100%;
+}
+
+#about-me-div {
+    position: relative;
+    height: 100px
+}
+
+#about-me-text {
+    position: relative;
+}
+
+#animated {
+  animation:fade-in 1.5s ease;
+  position: relative;
+}
+
+
+@keyframes fade-in {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}

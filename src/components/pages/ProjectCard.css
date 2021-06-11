@@ -1,0 +1,33 @@
+.project-card {
+    display: block;
+    background-color: var(--primary-accent);
+    border: 2px solid var(--primary);
+    margin: 1em 0;
+    border-radius: .25em;
+    transition: all 0.35s ease-out;
+}
+
+.project-card-title {
+    font-size: 1em;
+    text-align: left;
+    margin: 2%;
+}
+
+.project-card-description {
+    font-size: 0.6em;
+    text-align: left;
+    margin: 2%;
+}
+
+.project-card-tags {
+    font-size: 0.4em;
+    text-align: left;
+    margin: 2%;
+    color: var(--secondary-accent)
+}
+
+.project-card:hover {
+    border-color: var(--font-color);
+    cursor: pointer;
+    transform: scale(1.05);
+}

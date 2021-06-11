@@ -1,0 +1,30 @@
+#right-panel{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    color: var(--font-color);
+    font-size: 2rem;
+}
+
+h1 {
+    position: relative;
+}
+
+h1:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    background: var(--secondary);
+}
+
+@media only screen and (max-width: 600px) {
+  #right-panel {
+    width: 100%;
+  }
+}
+
